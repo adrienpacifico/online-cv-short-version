@@ -19,8 +19,8 @@
 
   {% include contact.html %}
 
-  {% assign skills = site.data.data.skills %}
-  {% if skills %}
+  {% assign sidebar_skills = site.data.data.sidebar_skills %}
+  {% if sidebar_skills %}
     {% include sidebar_skills.html %}
   {% endif %}
   {% if sidebar.education %}
