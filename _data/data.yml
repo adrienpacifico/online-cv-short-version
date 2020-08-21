@@ -3,61 +3,83 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Adrien Pacifico
+    tagline: Data Scientist/Economiste
+    avatar: profile_picture.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: hello@webjeda.com
-    phone: 012 345 6789
-    website: blog.webjeda.com #do not add http://
-    linkedin: alandoe
-    github: sharu725
+    email: adrienpacifico@gmail.com
+    phone: +33 (0)7 81.36.18.56
+    website: adrienpacifico.github.io #do not add http://
+    linkedin: adrien-pacifico-ph-d-7763855a
+    github: adrienpacifico
     telegram: # add your nickname without '@' sign
     gitlab:
     bitbucket:
-    twitter: '@webjeda'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    twitter: '@psyfico'
+    stack-overflow: 5304366 # Number/Username, e.g. 123456/alandoe
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
     languages:
-      - idiom: English
+      - idiom: French
         level: Native
 
-      - idiom: French
-        level: Professional
-
-      - idiom: Spanish
-        level: Professional
+      - idiom: English
+        level: Fluent
 
     interests:
       - item: Climbing
         link:
 
-      - item: Snowboarding
+      - item: Data
         link:
 
-      - item: Cooking
+      - item: EUC
         link:
 
 career-profile:
-    title: Career Profile
+    title: Profil Professionnel
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      Je suis un data scientist à la recherche d'un poste aux alentours de Marseille.
+        * Je dispose de six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
+        * J'aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
+        * J'ai une activité de veille technologique constante que ce soit sur les outils de data science et les outils statistiques via différents cannaux (twitter, hacker news, medium, etc.).
+      
+      
+    
+      
+
+      Je dispose de six années d'expérience dans l'analyse de données avec des outils devenu classiques en Data Science.
+     
+      <div class="encart">
+      <h5><a href="https://www.finovup.fr/blog/avantages-du-recrutement-jeune-docteur-cir/"><span class="iconify" data-icon="octicon-link" data-inline="true"></span>Crédit Impôt Recherche Jeune Docteur </a></h5>
+      Mon premier CDI sera éligible au crédit impôt recherche jeune docteur. <br> 
+      
+      Il permet à mon premier employeur de faire passer tout ou partie de mon coût salarial en CIR. <br>
+      Je peux proposer plusieurs sujets de R&D permettant d'utiliser cette avantage fiscal. Un sujet intéressant pour les entreprises pourrait être les différences entre les modèles prédictifs et les modèles causaux, ainsi que les problématiques associées telles que l’explicabilité des modèles prédictifs. 
+      </div>
+    
+      
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree:  PhD in Economics
+      university: Aix-Marseille School of Economics
+      time: 2014 - 2019
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipisddddddddt dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Magistère Ingénieur économiste
+      university: Faculté d'économie gestion d'Aix-Marseille
+      time: 2011 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -66,9 +88,9 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
+    - degree: Master II Évaluation des Politiques Publiques
+      university: Aix-Marseille School of Economics
+      time: 2013 - 2014
       details: |
         Describe your study here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
@@ -78,24 +100,19 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
+    - role: Chercheur
+      time: 2014 - Present
+      company: Aix-Marseille School of Economics <br> Université de Cergy-Pontoise <br> ETH Zurich
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
         Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
+        nasce
           - Bullet point
           - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
+    - role: Certificateur CASCAD.tech
+      time: 2020
+      company: HEC, Paris
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
         adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
@@ -104,8 +121,8 @@ experiences:
         pellentesque eu, pretium quis, sem.
           - Bullet point
           - Bullet point
-    - role: UI Developer
-      time: 2012 - 2014
+    - role: Enseignant
+      time: 2014, 2015, 2019, 2020
       company: Amazon, London
       details: |
         Describe your role here lorem ipsum dolor sit amet, consectetuer
@@ -166,25 +183,26 @@ publications:
 
 skills:
     title: Skills &amp; Proficiency
-
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Python
+        level: 75%
 
-      - name: Javascript & jQuery
-        level: 98%
-
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
+      - name: Data munging
         level: 95%
 
-      - name: Ruby on Rails
-        level: 85%
+      - name: Causal inference
+        level: 70%
 
-      - name: Sketch & Photoshop
-        level: 60%
+      - name: Machine Learning
+        level: 50%
 
-footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+      - name: DevOps
+        level: 30%
+
+Technos_Librairies:
+    title: 
+    summary: |
+      Python: Jupyterlab, PyCharm, VS-Code, Poetry, conda, logging, pytest, 
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.#3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
