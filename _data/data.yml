@@ -170,6 +170,43 @@ projects:
         link: "#"
         tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
+
+
+sidebar_skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: Data munging
+        level: 95%
+
+      - name: Causal inference
+        level: 70%
+
+      - name: Machine Learning
+        level: 50%
+
+      - name: DevOps
+        level: 30%
+skills:
+    title: Skills &amp; Proficiency
+    toolset:
+      - name: Python
+        level: 75%
+
+      - name: Data munging
+        level: 95%
+
+      - name: Causal inference
+        level: 70%
+
+      - name: Machine Learning
+        level: 50%
+
+      - name: DevOps
+        level: 30%
+
 publications:
     title: Publications
     intro: |
@@ -191,27 +228,12 @@ publications:
         link: "#"
         authors: Edgar T. Irons
         conference: "Comm. ACM 4 (1961), 51–55"
-
-sidebar_skills:
-    title: Skills &amp; Proficiency
-    toolset:
-      - name: Python
-        level: 75%
-
-      - name: Data munging
-        level: 95%
-
-      - name: Causal inference
-        level: 70%
-
-      - name: Machine Learning
-        level: 50%
-
-      - name: DevOps
-        level: 30%
 technos-librairies:
     summary: |
       Python: Jupyterlab, PyCharm, VS-Code, Poetry, conda, logging, pytest, 
+CIR:
+    summary: |
+    
 
 #footer: >
 #    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.#3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
