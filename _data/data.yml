@@ -51,7 +51,7 @@ career-profile:
       Je suis à la recherche d'un poste de data scientist/analyst dans la région marseillaise.
         * Six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
         * Aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
-        * Veille technologique constante sur les outils de data science    et  statistiques via différents cannaux (twitter, hacker news, medium, etc.).
+        * Veille technologique constante sur les outils de data science    et  statistiques via différents cannux (twitter, hacker news, medium, etc.).
 education:
     - degree:  PhD in Economics
       university: Aix-Marseille School of Economics
@@ -86,7 +86,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: Exchange semester/Bachelor 
+    - degree: Bachelor/Exchange semester
       university: Bishop's University
       time: Sept.-Dec. 2012
       details: |
@@ -110,9 +110,9 @@ education:
           - Bullet point
       
 experiences:
-    - role: Data Analyst/Researcher
-      company: Aix-Marseille School of Economics
-      time: Sept. 2018 - Aug. 2020
+    - role: Data Analyst Consultant
+      time: Sept. 2019 - Aug. 2020
+      company: ETH Zurich
       details: |
 
     - role: Data Analyst/Researcher
@@ -121,17 +121,19 @@ experiences:
       details: |
 
     - role: Data Analyst/Researcher
-      time: Sept. 2019 - Aug. 2020
-      company: ETH Zurich
+      company: Aix-Marseille School of Economics
+      time: Sept. 2014 - Aug. 2018
       details: |
 
-    - role:  Certifying Referee as cascad.tech
+
+
+    - role:  Certifying Referee at cascad.tech
       time: Janv-May 2020
       company: HEC, Paris
       details: 
 
     - role: Teaching assistant 
-      task: Mathematics, Macroeconomics, and Python for microsimulation
+      task: <br> Mathematics, Macroeconomics, and Python for microsimulation
       time: 2014, 2015, 2019, 2020
       company: FEG Aix-Marseille, Université de Cergy-Pontoise
       details: |
