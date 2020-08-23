@@ -33,30 +33,25 @@ sidebar:
         level: Fluent
 
     interests:
+      - item: Economics & human decision
+        link:
+
+      - item: Statistics
+        link:
+
+      - item: Electric unicycle
+        link:
+        
       - item: Climbing
-        link:
-
-      - item: Data
-        link:
-
-      - item: EUC
         link:
 
 career-profile:
     title: Profil Professionnel
     summary: |
-      Je suis un data scientist à la recherche d'un poste aux alentours de Marseille.
-        * Je dispose de six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
-        * J'aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
-        * J'ai une activité de veille technologique constante que ce soit sur les outils de data science et les outils statistiques via différents cannaux (twitter, hacker news, medium, etc.).
-      
-      
-    
-      
-
-      Je dispose de six années d'expérience dans l'analyse de données avec des outils devenu classiques en Data Science.
-    
-      
+      Je suis à la recherche d'un poste de data scientist/analyst dans la région marseillaise.
+        * Six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
+        * Aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
+        * Veille technologique constante sur les outils de data science    et  statistiques via différents cannaux (twitter, hacker news, medium, etc.).
 education:
     - degree:  PhD in Economics
       university: Aix-Marseille School of Economics
@@ -91,6 +86,29 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
+    - degree: Exchange semester/Bachelor 
+      university: Bishop's University
+      time: Sept.-Dec. 2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+    - degree: Licence Économie Management (EM) 
+      university: Faculté d'éco-gestion d'Aix-Marseille
+      time: 2009-2012
+      details: |
+        Describe your study here lorem ipsum dolor sit amet, consectetuer
+        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+        sociis natoque penatibus et magnis dis parturient montes, nascetur
+        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+        pretium quis, sem.
+          - Bullet point
+          - Bullet point
+      
 experiences:
     - role: Data Analyst/Researcher
       company: Aix-Marseille School of Economics
@@ -113,7 +131,7 @@ experiences:
       details: 
 
     - role: Teaching assistant 
-      task: <br>Mathematics, Macroeconomics, and Python for microsimulation
+      task: Mathematics, Macroeconomics, and Python for microsimulation
       time: 2014, 2015, 2019, 2020
       company: FEG Aix-Marseille, Université de Cergy-Pontoise
       details: |
@@ -125,32 +143,32 @@ experiences:
       time: 2012
       company: Bacardi, Genève
       details: |
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Comment fonctionne l'impôt sur le revenu ?
-        link: "#hook"
-        tagline: "A jupyter notebook that explains with the help of the `OpenFisca` library how the French tax benefit-system works."
+# projects:
+#     title: Projects
+#     intro: >
+#       You can list your side projects or open source libraries in this
+#       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+#       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#     assignments:
+#       - title: Comment fonctionne l'impôt sur le revenu ?
+#         link: "#hook"
+#         tagline: "A jupyter notebook that explains with the help of the `OpenFisca` library how the French tax benefit-system works."
 
-      - title: Second hand watches price evolution in France
-        link: "#"
-        tagline: "Are Rolex watches a better investment than French Tresery bound? I web-scrap 160000 posts the largest classified advertisement French website to analyse (and predict) the evolution of wathes price."
+#       - title: Second hand watches price evolution in France
+#         link: "#"
+#         tagline: "Are Rolex watches a better investment than French Tresery bound? I web-scrap 160000 posts the largest classified advertisement French website to analyse (and predict) the evolution of wathes price."
 
-      - title: Roads accidents in France
-        link: "#"
-        tagline: "There is an accident, can we predict who will die based on personal characteristics? Does the implementation of a radar reduces the probability of accidents? How many cyclist kills people on the road each year?"
+#       - title: Roads accidents in France
+#         link: "#"
+#         tagline: "There is an accident, can we predict who will die based on personal characteristics? Does the implementation of a radar reduces the probability of accidents? How many cyclist kills people on the road each year?"
 
-      - title: Zen Pandas
-        link: "#"
-        tagline: "pandas does not respects the zen of Python: many things happened implicitly (e.g. NaN are not displayed), there is more than one way to perform a task and so on. I develop a library that is mainly sugar syntax for pandas that aims at making pandas more zen"
+#       - title: Zen Pandas
+#         link: "#"
+#         tagline: "pandas does not respects the zen of Python: many things happened implicitly (e.g. NaN are not displayed), there is more than one way to perform a task and so on. I develop a library that is mainly sugar syntax for pandas that aims at making pandas more zen"
 
-      - title: Research
-        link: "#"
-        tagline: "All the research "
+#       - title: Research
+#         link: "#"
+#         tagline: "All the research "
 
 
 
