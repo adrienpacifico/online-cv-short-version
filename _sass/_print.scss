@@ -1,10 +1,13 @@
 @media print
-   {
+   { a[href]:after {
+      display: none;
+      visibility: hidden;
+    }
     @page {
         size: A4;
     }
     body {
-       font-size: 12pt;
+       font-size: 10pt;
     }
 
     img.avatar {
@@ -12,14 +15,14 @@
         -webkit-filter: greyscale(1);
     }
    .main-wrapper .time {
-       float: right;
+       float: left;
         color: black !important;
         -webkit-print-color-adjust: exact; 
    }
     .sidebar-wrapper {
         position: static;
         float: right;
-        width: 40%;
+        width: 25%;
         -webkit-print-color-adjust: exact; 
     }
 
@@ -32,7 +35,7 @@
     }
 
     .skillset .level-bar-inner {
-       background-color: black !important;
+       background-color: rgb(71, 181, 231) !important;
        -webkit-print-color-adjust: exact; 
     }
 

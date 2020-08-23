@@ -12,60 +12,68 @@
 
   <div class="skillset">
 
-
+    {% for skill in skills.toolset %}
     <div class="item">
 
-    <ul>
-      <li>
-        <img src="https://img.icons8.com/color/48/000000/python.png"/><strong>Python:</strong>
-        <ul>
-          <li>
-            <img src="https://img.icons8.com/ios/26/000000/sine.png"/>   Statistics: Pandas***,  Statsmodels**, Scikit-Learn*
-          </li>
-          <li>
-            <img src="https://img.icons8.com/color/26/000000/thumb-up--v1.png"/>  Best practices: PEP8** (Pylint, Black), Virtual environnements (Poetry**, pyenv, Conda**, pew**), Unit test: (pytest**, unittest), Continuous Integration (Travis**, CircleCI*)
-          </li>
-          <li>
-            <img src="https://img.icons8.com/color/48/000000/graph.png"width="26" height="26"/> 
-            Plotting: Matplotlib***, seaborn**, bokeh**, plotly**, altair
-          </li>
-          <li>
-            <img src="https://jupyter.org/favicon.ico" width="26" height="26""/> Jupyter: 
-          </li>
-          <li>
-            <img src="https://img.icons8.com/ultraviolet/48/000000/domain.png" width="26" height="26"/> Web Scrapping/API: Beautiful Soup*, Scrappy, API (Google Places, Twitter, JC-Decaux, meteostat)
-          </li>
-          <li>
-            <img src="https://img.icons8.com/color/48/000000/network-drive.png" width="26" height="26"/> Big Data: Dask*, Vaex*, pandarallel**, Spark, feather
-          </li>
-        </ul>
-      </li>
-      <li>
-        <img src="https://img.icons8.com/color/48/000000/module.png"/> Workflow:
-        <ul>
-          <li>Version Control: git**, github***, gitlab*, jupytext, dvc</li>
-          <li>Data querying: SQL**, </li>
-          <li>IDE: Jupyterlab***, PyCharm**, VsCode*, Spyder</li>
-          <li>OS: Linux (Debian**), MacOS**, Windows</li>
-          <li>Cloud/Virtualization/ : Scaleway**, AWS*, Docker*, ssh*</li>
-        </ul>
-      </li>
-      <li>
-        <img src="https://img.icons8.com/color/48/000000/reading.png" width="26" height="26" /> Interest in/want to learn:
-        <ul>
-          <li>Tensorflow, Keras, AutoML, rapids, Kubernetes/Kubeflow, Airflow, Pytorch </li>
-        </ul>
-      </li>
+      <h3 class="level-title">{{ skill.name }}</h3>
 
-    
-    </ul>
-    <div class="item">
-      
+      <div class="level-bar">
+        <div class="level-bar-inner" data-level="{{ skill.level }}">
+        </div>
+      </div><!--//level-bar-->
 
     </div><!--//item-->
-
+    {% endfor %}
 
   </div>
 
+
+
+  <div style="margin-left: -32px;">
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-8"> <!-- change to 7 if not for print -->
+          <div class="col-xs-6">
+            <img src="https://img.icons8.com/color/48/000000/python.png"/><strong>Python:</strong>
+            <ul>
+              <li>
+                <img src="https://img.icons8.com/ios/26/000000/sine.png"/>   Statistics: Pandas***,  Statsmodels**, Scikit-Learn*
+              </li>
+              <li>
+                <img src="https://img.icons8.com/color/26/000000/thumb-up--v1.png"/>  Best practices: PEP8** (Pylint, Black), Virtual environnements (Poetry**, pyenv, Conda**, pew**), Unit test: (pytest**, unittest), Continuous Integration (Travis**, CircleCI*)
+              </li>
+              <li>
+                <img src="https://img.icons8.com/color/48/000000/graph.png"width="26" height="26"/> 
+                Plotting: Matplotlib***, seaborn**, bokeh**, plotly**, altair
+              </li>
+              <!-- <li>
+                <img src="https://jupyter.org/favicon.ico" width="26" height="26""/> Jupyter: 
+              </li> -->
+              <li>
+                <img src="https://img.icons8.com/ultraviolet/48/000000/domain.png" width="26" height="26"/> Web Scrapping/API: Beautiful Soup*, Scrappy, API (Google Places, Twitter, JC-Decaux, meteostat)
+              </li>
+              <li>
+                <img src="https://img.icons8.com/color/48/000000/network-drive.png" width="26" height="26"/> Big Data: Dask*, Vaex*, pandarallel**, Spark, feather
+              </li>
+            </ul>
+          </div>
+          <div class="col-xs-6">
+            <img src="https://img.icons8.com/color/48/000000/module.png"/> Workflow:
+            <ul>
+              <li>Version Control: git**, github***, gitlab*, jupytext, dvc</li>
+              <li>Data querying: SQL**, </li>
+              <li>IDE: Jupyterlab***, PyCharm**, VsCode*, Spyder</li>
+              <li>OS: Linux (Debian**), MacOS**, Windows</li>
+              <li>Cloud/Virtualization/ : Scaleway**, AWS*, Docker*, ssh*</li>
+            </ul>
+            <img src="https://img.icons8.com/color/48/000000/reading.png" width="26" height="26" /> Interest in/want to learn:
+            <ul>
+              <li>Tensorflow, Keras, MLflow, rapids, Kubernetes/Kubeflow, Airflow, Pytorch </li>
+            </ul>
+          </div>
+        <ul><li>Other: Bash*, Latex**, Reveal.js**, HTML5*, Excel/VBA</li></ul>
+        </div>
+    </div>
+  </div>
 </section><!--//skills-section-->
 {% endif %}

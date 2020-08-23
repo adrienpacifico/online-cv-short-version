@@ -13,9 +13,9 @@ sidebar:
 
     # Sidebar links
     email: adrienpacifico@gmail.com
-    phone: +33 (0)7 81.36.18.56
+    phone: +33 (0)7.81.36.18.56
     website: adrienpacifico.github.io #do not add http://
-    linkedin: adrien-pacifico-ph-d-7763855a
+    linkedin:
     github: adrienpacifico
     telegram: # add your nickname without '@' sign
     gitlab:
@@ -55,14 +55,6 @@ career-profile:
       
 
       Je dispose de six années d'expérience dans l'analyse de données avec des outils devenu classiques en Data Science.
-     
-      <div class="encart">
-      <h5><a href="https://www.finovup.fr/blog/avantages-du-recrutement-jeune-docteur-cir/"><span class="iconify" data-icon="octicon-link" data-inline="true"></span>Crédit Impôt Recherche Jeune Docteur </a></h5>
-      Mon premier CDI sera éligible au crédit impôt recherche jeune docteur. <br> 
-      
-      Il permet à mon premier employeur de faire passer tout ou partie de mon coût salarial en CIR. <br>
-      Je peux proposer plusieurs sujets de R&D permettant d'utiliser cette avantage fiscal. Un sujet intéressant pour les entreprises pourrait être les différences entre les modèles prédictifs et les modèles causaux, ainsi que les problématiques associées telles que l’explicabilité des modèles prédictifs. 
-      </div>
     
       
 education:
@@ -75,7 +67,7 @@ education:
         sociis natoque penatibus et magnis dis parturient montes, nascetur
         ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
         pretium quis, sem.
-          - Bullet point
+          - Travailler sur des bases de données complexes nécessitant de nombreux nettoyages, appariements complexes
           - Bullet point
     - degree: Magistère Ingénieur économiste
       university: Faculté d'économie gestion d'Aix-Marseille
@@ -100,49 +92,39 @@ education:
           - Bullet point
           - Bullet point
 experiences:
-    - role: Chercheur
-      time: 2014 - Present
-      company: Aix-Marseille School of Economics <br> Université de Cergy-Pontoise <br> ETH Zurich
+    - role: Data Analyst/Researcher
+      company: Aix-Marseille School of Economics
+      time: Sept. 2018 - Aug. 2020
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nasce
-          - Bullet point
-          - Bullet point
-    - role: Certificateur CASCAD.tech
-      time: 2020
+
+    - role: Data Analyst/Researcher
+      time: Sept. 2018 - Aug. 2020
+      company: Université de Cergy-Pontoise
+      details: |
+
+    - role: Data Analyst/Researcher
+      time: Sept. 2019 - Aug. 2020
+      company: ETH Zurich
+      details: |
+
+    - role:  Certifying Referee as cascad.tech
+      time: Janv-May 2020
       company: HEC, Paris
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: Enseignant
+      details: 
+
+    - role: Teaching assistant 
+      task: <br>Mathematics, Macroeconomics, and Python for microsimulation
       time: 2014, 2015, 2019, 2020
-      company: Amazon, London
+      company: FEG Aix-Marseille, Université de Cergy-Pontoise
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+
+    - role: Python Developper intern
+      time: Mar.-July 2014
+      company: Etalab
     - role: Contrôleur de Gestion
       time: 2012
       company: Bacardi, Genève
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
 projects:
     title: Projects
     intro: >
@@ -150,45 +132,28 @@ projects:
       section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     assignments:
-      - title: Velocity
+      - title: Comment fonctionne l'impôt sur le revenu ?
         link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+        tagline: "A jupyter notebook that explains with the help of the `OpenFisca` library how the French tax benefit-system works."
 
-      - title: DevStudio
+      - title: Second hand watches price evolution in France
         link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+        tagline: "Are Rolex watches a better investment than French Tresery bound? I web-scrap 160000 posts the largest classified advertisement French website to analyse (and predict) the evolution of wathes price."
 
-      - title: Tempo
+      - title: Roads accidents in France
         link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+        tagline: "There is an accident, can we predict who will die based on personal characteristics? Does the implementation of a radar reduces the probability of accidents? How many cyclist kills people on the road each year?"
 
-      - title: Atom
+      - title: Zen Pandas
         link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+        tagline: "pandas does not respects the zen of Python: many things happened implicitly (e.g. NaN are not displayed), there is more than one way to perform a task and so on. I develop a library that is mainly sugar syntax for pandas that aims at making pandas more zen"
 
-      - title: Delta
+      - title: Research
         link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+        tagline: "All the research "
 
 
 
-sidebar_skills:
-    title: Skills &amp; Proficiency
-    toolset:
-      - name: Python
-        level: 75%
-
-      - name: Data munging
-        level: 95%
-
-      - name: Causal inference
-        level: 70%
-
-      - name: Machine Learning
-        level: 50%
-
-      - name: DevOps
-        level: 30%
 skills:
     title: Skills &amp; Proficiency
     toolset:
@@ -204,8 +169,11 @@ skills:
       - name: Machine Learning
         level: 50%
 
-      - name: DevOps
-        level: 30%
+      - name: Dev/ML Ops
+        level: 24%
+
+      - name: Presentation Skills
+        level: 95%
 
 publications:
     title: Publications
@@ -231,8 +199,8 @@ publications:
 technos-librairies:
     summary: |
       Python: Jupyterlab, PyCharm, VS-Code, Poetry, conda, logging, pytest, 
-CIR:
-    summary: |
+cir:
+    display: True
     
 
 #footer: >
