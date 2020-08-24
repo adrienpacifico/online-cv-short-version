@@ -1,18 +1,23 @@
+
+
 {% assign career-profile = site.data.data.career-profile %}
 {% if career-profile %}
 <section class="section summary-section">
 
-  <h2 class="section-title">
-    <span class="fa-stack fa-xs">
-      <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-user fa-stack-1x fa-inverse"></i>
-    </span>
-    {{ career-profile.title }}
-  </h2>
-
-  <div class="summary">
-    {{ career-profile.summary | markdownify }}
-  </div><!--//summary-->
+  <h2 class="section-title" style="display:inline-block;">
+    <div style="display:inline-block;"> 
+      <span class="fa-stack fa-xs">
+        <i class="fas fa-circle fa-stack-2x"></i>
+        <i class="fas fa-user fa-stack-1x fa-inverse"></i>
+      </span>
+      {{ career-profile.title }}
+      </div>
+    </h2> 
+    <span class="pull-right">last version: <a href="https://bit.ly/2FS01Vs">https://bit.ly/2FS01Vs, <a href="https://bit.ly/2FS01Vs"> <span class="iconify" data-icon="octicon-link" data-inline="true"></span>pdf</a> </span>
+  
+    <div class="summary" style="margin-top: -20px;">
+      {{ career-profile.summary | markdownify }}
+    </div><!--//summary-->
     
 </section><!--//section-->
 {% endif %}

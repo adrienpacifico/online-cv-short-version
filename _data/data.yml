@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Profil Professionnel
     summary: |
-      Je suis à la recherche d'un poste de data scientist/analyst dans la région marseillaise.
+      <br>Je suis à la recherche d'un poste de data scientist/analyst dans la région marseillaise.
         * Six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
         * Aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
         * Veille technologique constante sur les outils de data science    et  statistiques via différents canaux (twitter, hacker news, medium, etc.).
@@ -127,7 +127,7 @@ experiences:
       time: Janv-May 2020
       company: HEC, Paris
       details: 
-      
+
     - role: Data Analyst/Researcher
       company: Aix-Marseille School of Economics
       time: Sept. 2014 - Aug. 2018
