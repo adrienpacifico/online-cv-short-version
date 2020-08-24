@@ -53,7 +53,7 @@ career-profile:
         * Aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
         * Veille technologique constante sur les outils de data science    et  statistiques via différents canaux (twitter, hacker news, medium, etc.).
         * Capacités de modélisation microéconomique: modélisation comportementale/Théorie de la décision, modèles principal agent, théorie des jeux, recherche opérationnelle/optimisation.  
-        * Grand intérêt pour l'inférence causale (prescriptif plutôt que prédictif), et les nouveaux modèles permettant 
+        * Grand intérêt pour l'inférence causale (prescriptif plutôt que prédictif), et les nouveaux modèles permettant de combiner le ML et inférence causale (voir: [Double ML, Chernozhukov & al (2017)](https://arxiv.org/abs/1608.00060)) ; [Generalized Random Forest, Ahtey & al (2018)](https://arxiv.org/pdf/1610.01271.pdf) ; [Pearl(2019)](https://ftp.cs.ucla.edu/pub/stat_ser/r481-reprint.pdf).
 education:
     - degree:  PhD in Economics
       university: Aix-Marseille School of Economics
