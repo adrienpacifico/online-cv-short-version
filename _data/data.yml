@@ -122,6 +122,12 @@ experiences:
       company: Université de Cergy-Pontoise
       details: |
 
+
+    - role:  Certifying Referee at cascad.tech
+      time: Janv-May 2020
+      company: HEC, Paris
+      details: 
+      
     - role: Data Analyst/Researcher
       company: Aix-Marseille School of Economics
       time: Sept. 2014 - Aug. 2018
@@ -129,10 +135,6 @@ experiences:
 
 
 
-    - role:  Certifying Referee at cascad.tech
-      time: Janv-May 2020
-      company: HEC, Paris
-      details: 
 
     - role: Teaching assistant 
       task: <br> Mathematics, Macroeconomics, and Python for microsimulation
