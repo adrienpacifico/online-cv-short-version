@@ -48,7 +48,7 @@ sidebar:
 career-profile:
     title: Profil Professionnel
     summary: |
-      <br>Je suis à la recherche d'un poste de data scientist/analyst dans la région marseillaise.
+      <br>Je suis à la recherche d'un poste de data scientist/analyst.
         * Six années d'expérience dans l'analyse de données et une forte culture en <strong>informatique, statistique </strong> et <strong> machine learning.</strong>
         * Aime apprendre à utiliser de nouvelles technologies et résoudre des problèmes complexes.
         * Veille technologique constante sur les outils de data science    et  statistiques via différents canaux (twitter, hacker news, medium, etc.).
@@ -146,7 +146,7 @@ experiences:
       time: Mar.-July 2014
       company: Etalab
     - role: Contrôleur de Gestion
-      time: 2012
+      time: June-July 2012
       company: Bacardi, Genève
       details: |
 # projects:
