@@ -25,12 +25,12 @@ sidebar:
     codewars:
     goodreads: # Number-Username, e.g. 123456-alandoe
 
-    languages:
-      - idiom: French
-        level: Native
+    langues:
+      - idiom: Français
+        level: Natif
 
-      - idiom: English
-        level: Fluent
+      - idiom: Anglais
+        level: Courant
 
     interests:
       - item: Economics & human decision
@@ -88,7 +88,7 @@ education:
         pretium quis, sem.
           - Bullet point
           - Bullet point
-    - degree: Bachelor/Exchange semester
+    - degree: Bachelor/Semestre d'échange #Exchange semester
       university: Bishop's University
       time: Sept.-Dec. 2012
       details: |
@@ -114,7 +114,7 @@ education:
 experiences:
     - role: Data Analyst Consultant
       time: Sept. 2019 - Aug. 2020
-      company: ETH Zurich
+      company: École polytechnique fédérale de Zurich
       details: |
 
     - role: Data Analyst/Researcher
