@@ -179,7 +179,7 @@ experiences:
 
 
 skills:
-    title: Skills &amp; Proficiency
+    title: Compétences &amp; Outils #Skills &amp; Proficiency
     toolset:
       - name: Python
         level: 75%
