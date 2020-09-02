@@ -33,17 +33,17 @@ sidebar:
         level: Courant
 
     interests:
-      - item: Economics & human decision
+      - item: Économie & fondements de la décision
+        link: https://www.youtube.com/watch?v=FHAhaUMmNlU
+
+      - item: Statistiques
         link:
 
-      - item: Statistics
-        link:
-
-      - item: Electric unicycle
-        link:
+      - item: Gyroroue
+        link: https://www.youtube.com/watch?v=uHcD8hwpnN4&list=PLrZk2AOh7kSTkRQvkpK_CAysq-slK-zk5&index=4&t=0s
         
-      - item: Climbing
-        link:
+      - item: Escalade
+        link: https://youtu.be/dEzTMwXfVro?t=26
 
 career-profile:
     title: Profil Professionnel
