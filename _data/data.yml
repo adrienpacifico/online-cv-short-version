@@ -55,7 +55,7 @@ career-profile:
         * Capacités de modélisation microéconomique: modélisation comportementale/théorie de la décision, modèles principal-agent, théorie des jeux, recherche opérationnelle/optimisation.  
         * Grand intérêt pour l'inférence causale (prescriptif plutôt que prédictif), et les nouveaux modèles permettant de combiner le ML et inférence causale (voir: [Double ML, Chernozhukov & al (2017)](https://arxiv.org/abs/1608.00060)) ; [Generalized Random Forest, Ahtey & al (2018)](https://arxiv.org/pdf/1610.01271.pdf) ; [Pearl (2019)](https://ftp.cs.ucla.edu/pub/stat_ser/r481-reprint.pdf)).
 education:
-    - degree:  PhD in Economics
+    - degree:  Doctorat en Économie Mathématique et Économétrie
       university: Aix-Marseille School of Economics
       time: 2014 - 2019
       details: |
@@ -66,7 +66,7 @@ education:
         pretium quis, sem.
           - Travailler sur des bases de données complexes nécessitant de nombreux nettoyages, appariements complexes
           - Bullet point
-    - degree: Magistère Ingénieur économiste
+    - degree: Magistère Ingénieur Économiste
       university: Faculté d'économie gestion d'Aix-Marseille
       time: 2011 - 2014
       details: |
